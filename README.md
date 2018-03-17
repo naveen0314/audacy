@@ -1,4 +1,4 @@
-# audacy
+
 Techincal Task:
 ---------------------------------
 Required files:

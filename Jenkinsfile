@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
         /* This builds the actual image; synonymous to
-         * docker build on the command line */
+         * docker build on the command line z*/
 
         app = docker.build("nchalla0314/task")
     }

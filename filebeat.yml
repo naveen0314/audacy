@@ -1,0 +1,8 @@
+filebeat.prospectors:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/*.log
+    - /tmp/application*.log
+ output.elasticsearch:
+  hosts: ["54.172.175.228:9200"]
